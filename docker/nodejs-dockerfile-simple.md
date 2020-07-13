@@ -7,6 +7,8 @@ ENV PORT 5000
 
 EXPOSE $PORT
 
+WORKDIR /node/app
+
 COPY ./package*.json ./
 
 RUN npm install && npm cache clean --force
