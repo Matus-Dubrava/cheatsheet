@@ -30,4 +30,4 @@ expose port 5000 and run the container in the background
 docker container run -p 5000:5000 -d --name express-app express-app
 ```
 
--   working example can be found in the corresponding directory
+_working example can be found in the corresponding directory_
