@@ -24,8 +24,10 @@ docker build -t express-app .
 
 #### running the container
 
+expose port 5000 and run the container in the background
+
 ```
 docker container run -p 5000:5000 -d --name express-app express-app
 ```
 
-working example can be found in the corresponding directory
+-   working example can be found in the corresponding directory
