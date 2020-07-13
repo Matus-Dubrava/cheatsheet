@@ -1,6 +1,4 @@
-## NodeJS Dockerfile using tini
-
----
+# NodeJS Dockerfile using tini
 
 about tini from official repository [https://github.com/krallin/tini](https://github.com/krallin/tini)
 
@@ -34,17 +32,13 @@ ENTRYPOINT ["/tini", "--"]
 CMD ["node", "index.js"]
 ```
 
-### building the image
-
----
+## building the image
 
 ```
 docker build -t express-app .
 ```
 
-### running the container
-
----
+## running the container
 
 expose port 5000 and run the container in the background
 
